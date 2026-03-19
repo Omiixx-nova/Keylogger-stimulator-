@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    background: #fff;
+    padding: 20px;
+    width: 320px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Input field */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Button */
+button {
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/* Log display */
+.log-container {
+    background: #000;
+    color: #0f0;
+    padding: 10px;
+    height: 150px;
+    overflow-y: auto;
+    font-family: monospace;
+}
